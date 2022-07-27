@@ -1,0 +1,70 @@
+main{
+    font-family: "Lexend Deca", sans-serif;
+}
+h2{
+    font-family: "Big Shoulders Display", cursive;
+}
+.card--orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 0;
+}
+.text-color-orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.text-color-orange:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.article--green {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+}
+
+.text-color-green{
+ color: hsl(184, 100%, 22%);
+}
+
+.text-color-green:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+
+.article--green-ligth {
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.text-color-green--ligth{
+    color: hsl(179, 100%, 13%);
+
+}
+
+.text-color-green--ligth:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .card--orange {
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;
+    }
+
+    .article--green-ligth {
+
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+
+}
